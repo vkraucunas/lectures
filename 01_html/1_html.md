@@ -44,7 +44,7 @@
 
 ### Review
 - What does HTML contribute to a website?
-- Is <p> a tag or element?
+- Is ```<p>``` a tag or element?
 - What is an example of a self-closing tag?
 - What is the primary difference between an ID and a class?
 - (Code example) What is a parent on this page? A child? A set of siblings?
