@@ -21,6 +21,7 @@
 - Tags vs elements
     - Tags are the basic unit of HTML. Think of tags as boxes
 - Self-closing tags
+
 ## ++++++ Exercise +++++++
 
 ## Break
@@ -40,6 +41,7 @@
 - Why
 - Structural
 - Text markdown
+
 ### Review
 - What does HTML contribute to a website?
 - Is <p> a tag or element?
