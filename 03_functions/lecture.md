@@ -63,15 +63,8 @@ greet
 // undefined
 ```
 
-Now some of you may be confused. You may have have imagined reading `"Hello, World!"` to be logged to our console--not the definition of the function. If I'm describing you, then you've got great intuition. When working with functions, there are two steps: creating and invoking. What you imagined reading (`"Hello, World!"`) happens during the invocation step of a function.
-
 ### 4 of 7: Function Invocation
 
-Similar to the real world, functions consist of two processes: first, creation of the instructions; second, execution of the instructions.
-
-To this point, we've just created a recipe for `greet`, we haven't actually told anyone or anything to execute the instructions in our function.
-
-To execute the code inside our curly braces, we need to use an operator of `()` next to the name of our function:
 
 ```javascript
 function greet() {
@@ -94,10 +87,6 @@ greet();
 That's it! Now we can re-use the instructions of `greet` whenever we want. Above, we just invoked it 3 times. :)
 
 ### 5 of 7: The keyword `return`
-
-Some of you may noticed that when we invoked `greet()`, the console logged the value `undefined`. This design points to an important part of how functions are designed. Every function returns a value. If you do not specify a return, then it will return `undefined`.
-
-So logging is similar to a chef following a recipe and shouting when he executes one of the steps of the recipe; moreover, a chef yelling each step isn’t the same as a chef creating our meal and then returning a meal to us. Imagine you order a dish and its made; but no one ever returns it to you.
 
 If you want to add instructions on what a function should return, you'll need to use the keyword `return`:
 
@@ -151,22 +140,9 @@ function greet(name) {
 }
 ```
 
-Let's view what happens when we now invoke `greet`:
-
-```javascript
-function greet(name) {
-  return "Hello, " + name;
-}
-
-greet();
-// "Hello, undefined"
-```
-
-Hmmmm... Not quite what we wanted. We'll need arguments to assign values to our parameters.
-
 #### Arguments
 
-To dynamically assign a value to `name`, we need to pass a value to `greet()` during invocation. An argument is passed by putting a variable or value in an invocation's parenthesis. The position of this argument will correspond with the position of the parameter. We'll write some example code to make this process clearer:
+To dynamically assign a value to `name`, we need to pass a value to `greet()` during invocation.
 
 ```javascript
 function greet(name) {
@@ -177,11 +153,11 @@ greet("Homer");
 // "Hello, Homer"
 ```
 
-`"Homer"` is the first argument passed when invoking `greet()`. During invocation, `"Homer"` is assigned to the first parameter of `greet()`, `name`.
+
 
 ### 7 of 7: The keyword `arguments`
 
-Awesome, there's going to be situations where we may want to quickly access information about the arguments being passed in during invocation. Some information may be reading the number of arguments; or we may want to have the ability to accept a variable number of arguments. In both of these situations, we want to utilize a keyword that exists only inside of functions: `arguments`. This keyword exhibits the following behavior:
+We want to utilize a keyword that exists only inside of functions: `arguments`. This keyword exhibits the following behavior:
 
 * the keyword `arguments` exist only inside of a function
 * the keyword `arguments` is array-like, which means it has some functionality of an array, such as `length`, but not others.
@@ -199,8 +175,6 @@ args(1,2,3);
 
 Notice that the correct number of arguments is being logged to the console. We achieved this functionality with the `length` property being used on `arguments`. Since we have the ability to use dot notation with `arguments`, that's an insightful indicator that `arguments` is actually an object.
 
-Now watch what happens when we try to use another method such as `pop()` that is very common to arrays:
-
 ```javascript
 function args() {
   console.log(arguments.pop());
@@ -209,8 +183,6 @@ function args() {
 args(1,2,3);
 // ...arguments.pop is not a function...
 ```
-
-Using the `pop()` method doesn't work, and this observation confirms our assumption that `arguments` doesn't have access to all methods of an array. So what methods or properties does it have? Let's use console.log to see! As we'll soon notice, `arguments` is an object where each argument being passed, from left to right, is assigned a numeric key starting from the integer `0`. `arguments` also has a `length` property, as we learned in an earlier example.
 
 ## Valerie's process for writing a function
 var result / return result
