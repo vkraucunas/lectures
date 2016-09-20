@@ -1,4 +1,5 @@
 # HTML Lecture
+###[Slides](http://slides.com/valeriekraucunas/deck-2)
 
 ### Objectives
 - Describe the purpose of HTML
@@ -36,7 +37,7 @@
 - parents & children
 - siblings
 
-## Stretch     
+## Stretch
 ### Semantic HTML
 - Why
 - Structural

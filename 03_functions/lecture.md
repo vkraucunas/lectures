@@ -1,4 +1,5 @@
 # An Introduction to Functions with JavaScript
+## [Slides](http://slides.com/valeriekraucunas/functions)
 
 Today, we're going to explore the fascinating world of functions. This world may bewilder or intimidate some of you. Find solace in the fact that functions are nothing more than a way of re-using code. This realization will help you to eventually embrace the usage of functions and, dare I say, excitement for them. At the end of today's lessons, I hope that you guys are able to add functions to your coding tool-belt.
 

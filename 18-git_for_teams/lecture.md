@@ -1,4 +1,5 @@
 # Git with Teams
+### [Slides](http://slides.com/valeriekraucunas/deck-11)
 
 ## Objectives!!
 - Discuss best practices for setting up a team

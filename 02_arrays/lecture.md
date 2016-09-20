@@ -1,4 +1,5 @@
 # Arrays!
+### [Slides](http://slides.com/valeriekraucunas/deck-3)
 
 ## Objectives
 - Explain what an array is
@@ -18,7 +19,7 @@
 ## Parts of an array
 - Creating an array
 	- var a = [];
-	- var b = new Array; << downplay. 	
+	- var b = new Array; << downplay.
 - "[ ]" < empty array literal
 	- Truthy or falsy?
 - Can contain any combination of data types in the literal, must be comma separated
@@ -51,7 +52,7 @@
 - shift & unshift
 	- beginning of an array
 - splice
-	- add or remove 	
+	- add or remove
 - slice
 	- NOT DESTRUCTIVE
 - sort

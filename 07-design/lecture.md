@@ -1,4 +1,5 @@
 # Design (Pt 2)
+### [Slides](http://slides.com/valeriekraucunas/deck-6)
 
 ## Objectives
 - Discuss the best practices of UI design
@@ -33,6 +34,6 @@
 - Math way - palleton
 - Kim Kardashian method
     - Highlight
-    - Contour  
+    - Contour
 
 ## Reset vs normalize

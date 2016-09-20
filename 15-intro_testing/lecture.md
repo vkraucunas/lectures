@@ -1,4 +1,5 @@
 # Intro to Testing
+### [Slide](http://slides.com/valeriekraucunas/deck-9)
 
 ## Objectives
 - Discuss why testing is a best practice

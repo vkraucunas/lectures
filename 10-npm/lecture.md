@@ -1,4 +1,5 @@
-[Slides](https://slides.com/valeriekraucunas/node-js-modules)
+# npm & Node Modules
+### [Slides](https://slides.com/valeriekraucunas/node-js-modules)
 
 - Describe what a Node.js module is and why they're beneficial
 - Explain what the three kinds of modules are

@@ -1,4 +1,5 @@
 # CSS Layout 1
+### [Slides](http://slides.com/valeriekraucunas/deck-5)
 
 ## Objectives!
 - Describe what a psuedo-class does.
