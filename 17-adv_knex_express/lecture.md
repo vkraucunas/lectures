@@ -35,7 +35,7 @@ bcrypt.hashSync('test', 10)
 ```
 
 ### Altering the sequence starting place
-- ALTER SEQUENCE something_id_seq RESTART WITH 3;
+- ALTER SEQUENCE tablename_id_seq RESTART WITH 3;
 
 ### Keep queries in the query file!
 ```javascript
